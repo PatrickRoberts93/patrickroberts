@@ -11,7 +11,7 @@ $base-font-size:   18px;
 $base-font-weight: 400;
 $base-line-height: 1.4;
 
-$page-container: 1300px;
+$page-container-width: 1200px;
 
 
 // Custom properties
@@ -29,5 +29,6 @@ body {
         "base/base",
         "base/fonts",
         "base/typography",
-        "vendors/normalize"
+        "vendors/normalize",
+        "layouts/header"
 ;
