@@ -1,0 +1,36 @@
+#about {
+  background-color: var(--theme-color);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  h2 {
+    margin: 0 0 1.2em 0;
+  }
+}
+
+.about__figures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+  figure {
+    width: 33%;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    margin: 0;
+
+    figcaption {
+      font-size: 1.5em;
+      font-weight: 600;
+      padding: 0 0 20px 0;
+    }
+
+    img {
+      height: 200px;
+      max-width: 100%;
+      display: inline;
+      margin: 20px 0 10px 0;
+      }
+  }
