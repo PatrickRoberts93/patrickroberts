@@ -1,0 +1,50 @@
+.blog, .post {
+  background-color: var(--theme-color);
+
+  a {
+    color: #000;
+  }
+  p {
+    color: #000;
+  }
+
+  nav a {
+    color: #FFF;
+  }
+
+}
+
+.blog-title {
+  text-align: center;
+  padding: .5em 0;
+  border-top: 2px solid #FFF;
+  border-bottom: 2px solid #FFF;
+}
+
+.post-list {
+  background-color: #FFF;
+  padding: 3em;
+  border-radius: 15px;
+  margin: 3em 0;
+  li {
+    list-style: none;
+  }
+}
+
+article.post {
+    background-color: #FFF;
+    padding: 3em;
+    border-radius: 15px;
+    margin: 3em 0;
+    li {
+      list-style: none;
+    }
+
+    .post-header {
+      margin: 2em 0 1em 0;
+    }
+}
+
+.post-title {
+  color: #000;
+}

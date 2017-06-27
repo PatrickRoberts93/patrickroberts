@@ -1,15 +1,19 @@
 ---
-layout: default
+layout: blog
 ---
+<div class="container-fluid">
+<h2 class="blog-title">Blog</h2>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+  <a href="javascript:window.history.back()">Back to Blog</a>
+  <div class="post-header">
+    {% for post in site.posts %}
+    <h3 class="post-title" itemprop="name headline">{{ post.title }} - {{ post.date | date: "%b %-d, %Y" }}</h3>
+    {% endfor %}
   </div>
-
+  <div class="post-content" itemprop="articleBody">
+    <div class="table-responsive">
+      {{ content }}
+    </div>
+  </div>
 </article>
+</div
