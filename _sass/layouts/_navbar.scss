@@ -7,6 +7,22 @@ nav {
     list-style: none;
     padding: 0 1em 0 0;
   }
+  a {
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      border: 0;
+      height: 2px;
+      width: 0;
+      transition: width 0.2s ease-out;
+      background-color: #FFF;
+    }
+
+    &:hover:before {
+      width: 30px;
+    }
+  }
 }
 
 .blog, .post {

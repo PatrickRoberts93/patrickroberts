@@ -1,9 +1,6 @@
 .blog, .post {
   background-color: var(--theme-color);
 
-  a {
-    color: #000;
-  }
   p {
     color: #000;
   }
@@ -29,6 +26,16 @@
   li {
     list-style: none;
   }
+
+  a {
+    color: #2a7ae2;
+
+    &:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+  
 }
 
 article.post {
@@ -36,6 +43,7 @@ article.post {
     padding: 3em;
     border-radius: 15px;
     margin: 3em 0;
+
     li {
       list-style: none;
     }
@@ -43,7 +51,7 @@ article.post {
     .post-header {
       margin: 2em 0 1em 0;
     }
-}
+  }
 
 .post-title {
   color: #000;

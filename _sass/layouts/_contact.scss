@@ -17,6 +17,10 @@
         color: var(--theme-color);
         margin: 0 0 0 10px;
         font-size: 1.2em;
+
+        &:hover {
+          filter: brightness(50%);
+        }
     }
 }
 
@@ -26,7 +30,7 @@
     float: left;
 
     .fa {
-        margin: 0.2em;
+        margin: 0.1em;
     }
 }
 
