@@ -13,4 +13,7 @@ If you live or work nearby I highly recommend you come along to the next meetup,
 <a href="https://drive.google.com/open?id=1WoA3OdIof4-7IOd2udIe-SPvVHCBXnAhzpg5TWbFPQU">CSS Grid Presentation</a>
 <br/>
 <br/>
-<iframe src="https://docs.google.com/presentation/d/1WoA3OdIof4-7IOd2udIe-SPvVHCBXnAhzpg5TWbFPQU/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<div class="slides-container">
+  <iframe src="https://docs.google.com/presentation/d/1WoA3OdIof4-7IOd2udIe-SPvVHCBXnAhzpg5TWbFPQU/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>

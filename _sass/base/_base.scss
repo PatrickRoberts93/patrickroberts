@@ -21,11 +21,24 @@ html {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+
+    @media screen and (max-width: $tablet) {
+
+      font: $base-font-weight #{$tablet-font-size}/#{$base-line-height} $base-font-family;
+
+    }
+
+    @media screen and (max-width: $phone) {
+
+      font: $base-font-weight #{$phone-font-size}/#{$base-line-height} $base-font-family;
+
+    }
 }
 
 .page-container {
   max-width: $page-container-width;
   margin: 0 auto;
+  padding: 0 2em;
 }
 
 
@@ -69,7 +82,10 @@ h1 {
 }
 
 h2 {
-  font-size: 3.555555556em;
+  font-size: 3em;
+  @media screen and (max-width: $phone) {
+  font-size: 2.7em;
+ }
 }
 
 h3 {
