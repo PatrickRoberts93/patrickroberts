@@ -33,6 +33,10 @@ body {
       font: $base-font-weight #{$phone-font-size}/#{$base-line-height} $base-font-family;
 
     }
+
+    .mobile-spacer {
+      margin: 3em 0;
+    }
 }
 
 .page-container {

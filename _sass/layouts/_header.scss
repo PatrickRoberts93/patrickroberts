@@ -6,13 +6,17 @@ header {
 
   display: flex;
   align-items: center;
+}
 
-  .buttons {
-    margin: 2em 0 0 0;
+.header-content {
+  padding: 3em 0;
+}
 
-    @media screen and (max-width: 670px) {
-      width: 25%;
-    }
+.buttons {
+  margin: 2em 0 0 0;
 
+  @media screen and (max-width: 670px) {
+    width: 25%;
   }
+
 }
