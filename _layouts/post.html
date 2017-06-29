@@ -1,10 +1,16 @@
 ---
 layout: blog
 ---
-<div class="container-fluid">
-<h2 class="blog-title">Blog</h2>
+
+<div class="blog-header">
+{% include navbar.html %}
+
+<h2 class="blog-title">Patrick Roberts - Blog</h2>
+
+</div>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <a href="javascript:window.history.back()">Back to Blog</a>
+  <a href="{{ " /blog " | prepend: site.baseurl }}">Back to Blog</a>
   <div class="post-header">
     {% for post in site.posts %}
     <h3 class="post-title" itemprop="name headline">{{ post.title }} - {{ post.date | date: "%b %-d, %Y" }}</h3>
@@ -16,4 +22,3 @@ layout: blog
     </div>
   </div>
 </article>
-</div

@@ -3,8 +3,14 @@ layout: blog
 permalink: /blog/
 title: Blog
 ---
-<div class="container-fluid">
-<h2 class="blog-title">Blog</h2>
+
+<div class="blog-header">
+{% include navbar.html %}
+
+<h2 class="blog-title">Patrick Roberts - Blog</h2>
+
+</div>
+
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
@@ -17,4 +23,3 @@ title: Blog
       </li>
   {% endfor %}
 </ul>
-</div>
