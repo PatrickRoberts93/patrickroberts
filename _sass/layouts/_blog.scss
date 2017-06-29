@@ -1,4 +1,5 @@
 .blog, .post {
+  background-color: #000;
   background-color: var(--theme-color);
 
   p {
@@ -35,7 +36,7 @@
       text-decoration: underline;
     }
   }
-  
+
 }
 
 article.post {
