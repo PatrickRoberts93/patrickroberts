@@ -12,9 +12,7 @@ layout: blog
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <a href="{{ " /blog " | prepend: site.baseurl }}">Back to Blog</a>
   <div class="post-header">
-    {% for post in site.posts %}
-    <h3 class="post-title" itemprop="name headline">{{ post.title }} - {{ post.date | date: "%b %-d, %Y" }}</h3>
-    {% endfor %}
+    <h3 class="post-title" itemprop="name headline">{{ page.title }}</h3>
   </div>
   <div class="post-content" itemprop="articleBody">
     <div class="table-responsive">
