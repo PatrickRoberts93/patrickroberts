@@ -1,9 +1,15 @@
 .scrollToTop{
-	position:fixed;
-	bottom:40px;
-	right:40px;
-	display:none;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	display: none;
   color: #000;
+
+	@media screen and (max-width: $phone) {
+		bottom: 5px;
+		right: 5px;
+		font-size: 1.7em;
+}
 }
 .scrollToTop:hover{
 	text-decoration:none;
