@@ -5,9 +5,17 @@
   padding: .8em 3em;
   margin: .3em .2em;
   display: inline-block;
-  transition: all .2s ease-in;
+  transition: all 100ms ease-in;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+
+  @media screen and (max-width: 1200px) {
+  width: 250px;
+  }
+
+  @media screen and (max-width: 975px) {
+  width: 200px;
+  }
 
   @media screen and (max-width: 670px) {
     width: 150px;
