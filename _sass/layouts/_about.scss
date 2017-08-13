@@ -40,16 +40,23 @@
       max-width: 100%;
       display: inline;
       margin: 20px 0 10px 0;
-
-      @media screen and (max-width: 530px) {
-        height: 100px;
-      }
       }
   }
 
   @media screen and (max-width: 480px) {
-    #about p {
+    #about {
+
+    p {
       width: 100%;
       margin: 30px auto;
     }
+
+    img {
+        height: 50px;
+    }
+
+    figcaption {
+      font-size: 1.2em;
+    }
+  }
     }
