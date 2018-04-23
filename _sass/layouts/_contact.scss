@@ -43,11 +43,22 @@
       margin: 0 0 5em 0;
       padding: 0;
     }
+}
 
-    .fa {
-        margin: 0.1em;
-        @media screen and (max-width: $phone) {
-          font-size: 3em;
+.social-icon {
+    display: inline-block;
+    background-color: var(--theme-color);
+    border-radius: 10px;
+
+    img {
+        display: block;
+        width: 64px;
+        padding: 5px;
+        height: auto;
+        margin: 0 auto;
+
+        &.email {
+            padding: 8px;
         }
     }
 }

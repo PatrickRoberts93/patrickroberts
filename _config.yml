@@ -15,5 +15,8 @@ url: "http://patrickroberts.io" # the base hostname & protocol for your site
 twitter_username: proberts93
 github_username:  patrickroberts93
 
+sass:
+  style: compressed
+  
 # Build settings
 markdown: kramdown
