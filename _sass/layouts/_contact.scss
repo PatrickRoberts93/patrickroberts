@@ -68,6 +68,11 @@ form {
     width: 50%;
     float: left;
 
+    label {
+        display: block;
+        margin-bottom: .75em;
+    }
+
     @media screen and (max-width: $phone) {
       width: 100%;
       padding: 0;

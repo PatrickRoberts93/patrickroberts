@@ -5,22 +5,22 @@
             <p>If you would like to discuss a potentional career opportunity, I'd love to hear from you. Check out my Github and Linkedin and then get in touch via your preferred contact method.</p>
             <p><strong>Phone:</strong><a href="tel:+61423082781">0423 082 781</a></p>
             <p><strong>Email:</strong><a href="mailto:admin@patrickroberts.io">admin@patrickroberts.io</a></p>
-            <a href="mailto:admin@patrickroberts.io" class="social-icon"><img src="/img/envelope.svg" alt="" class="email"></a>
-            <a href="http://github.com/PatrickRoberts93" class="social-icon"><img src="/img/github.svg" alt=""></a>
-            <a href="http://www.linkedin.com/in/patrickroberts93/" class="social-icon"><img src="/img/linkedin.svg" alt=""></a>
-            <a href="http://twitter.com/proberts93" class="social-icon"><img src="/img/twitter.svg" alt=""></a>
+            <a aria-label="Email" href="mailto:admin@patrickroberts.io" class="social-icon"><img src="/img/envelope.svg" alt="" class="email"></a>
+            <a aria-label="Github" href="http://github.com/PatrickRoberts93" class="social-icon"><img src="/img/github.svg" alt=""></a>
+            <a aria-label="Linkedin" href="http://www.linkedin.com/in/patrickroberts93/" class="social-icon"><img src="/img/linkedin.svg" alt=""></a>
+            <a aria-label="Twitter" href="http://twitter.com/proberts93" class="social-icon"><img src="/img/twitter.svg" alt=""></a>
         </div>
         <form action="https://formspree.io/admin@patrickroberts.io" method="POST">
-            <p>Name</p>
-            <input type="text" name="name">
-            <p>Email Address</p>
-            <input type="email" name="_replyto">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="_replyto">
             <input type="hidden" name="_subject" value="Website contact" />
-            <p>Phone Number</p>
-            <input type="text" name="phone">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
             <input type="text" name="_gotcha" style="display:none" />
-            <p>Your Message</p>
-            <textarea name="message"></textarea>
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message"></textarea>
             <input type="submit" value="Send">
         </form>
     </div>
